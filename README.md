@@ -1,10 +1,8 @@
-# Repolinter Test 1
+# {name_of_project_here} 
 <!-- This should be 1-3 sentence short description of the project that can be used as a 'one-liner' to describe the repo. A best practice is using this same language as the official 'description' on a GitHub repo landing page. --> 
-This is a quick test project.
  
  ## About the Project 
 <!-- This should be a longer-form description of the project. It can include history, background, details, problem statements, links to design documents or other supporting materials, or any other information/context that a user or contributor might be interested in. --> 
-This is a real quick test project for Repolinter PR testing the actual flow of using this action.
  
  ## Project Mission 
 <!-- Provide the core mission and objectives driving this project. --> 
@@ -16,7 +14,7 @@ This is a real quick test project for Repolinter PR testing the actual flow of u
 <!-- Provide the team's mission and how they work together. --> 
  
  ## Core Team 
-An up-to-date list of core team members can be found in [MAINTAINERS.md](MAINTAINERS.md). At this time, the project is still building the core team and defining roles and responsibilities. We are eagerly seeking individuals who would like to join the community and help us define and fill these roles. 
+An up-to-date list of core team members can be found in [COMMUNITY.md](COMMUNITY.md). At this time, the project is still building the core team and defining roles and responsibilities. We are eagerly seeking individuals who would like to join the community and help us define and fill these roles. 
  
  ## Documentation Index 
 <!-- TODO: This is a like a 'table of contents' for your documentation. Tier 0/1 projects with simple README.md files without many sections may or may not need this, but it is still extremely helpful to provide 'bookmark' or 'anchor' links to specific sections of your file to be referenced in tickets, docs, or other communication channels. --> 
@@ -55,9 +53,6 @@ Pull-requests are merged to `main` and the changes are immediately deployed to t
  ## Contributing 
 Thank you for considering contributing to an Open Source project of the US Government! For more information about our contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md). 
  
- ## Codeowners 
-The contents of this repository are managed by **{responsible organization(s)}**. Those responsible for the code and documentation in this repository can be found in [CODEOWNERS.md](CODEOWNERS.md). 
- 
  ## Community 
 The {name_of_project_here} team is taking a community-first and open source approach to the product development of this tool. We believe government software should be made in the open and be built and licensed such that anyone can download the code, run it themselves without paying money to third parties or using proprietary software, and use it as they will.
 
@@ -67,9 +62,6 @@ We also recognize capacity building as a key part of involving a diverse open so
  
  ## Community Guidelines 
 Principles and guidelines for participating in our open source community are can be found in [COMMUNITY_GUIDELINES.md](COMMUNITY_GUIDELINES.md). Please read them before joining or starting a conversation in this repo or one of the channels listed below. All community members and participants are expected to adhere to the community guidelines and code of conduct when participating in community spaces including: code repositories, communication channels and venues, and events. 
- 
- ## Feedback 
-If you have ideas for how we can improve or add to our capacity building efforts and methods for welcoming people into our community, please let us know at **{contact_email}**. If you would like to comment on the tool itself, please let us know by filing an **issue on our GitHub repository.** 
  
  ## Glossary 
 Information about terminology and acronyms used in this documentation may be found in [GLOSSARY.md](GLOSSARY.md). 
