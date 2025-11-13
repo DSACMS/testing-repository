@@ -2,16 +2,17 @@
   "name": "testing-repository",
   "version": "",
   "description": "Test repository for Repolinter Actions",
-  "longDescription": "This is a playground to test various actions that are made with Github Actions",
-  "status": "ideation",
+  "longDescription": "This repository functions as a playground for the OSPO to test, validate, and experiment with various actions that are made with Github Actions -currently used for Repolinter and automated-codejson-generator.",
+  "status": "Ideation",
   "permissions": {
     "licenses": [
       {
-        "URL": "LICENSE",
+        "URL": "https://github.com/DSACMS/testing-repository/blob/main/LICENSE",
         "name": "CC0-1.0"
       }
     ],
-    "usageType": "openSource"
+    "usageType": ["openSource"],
+    "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/testing-repository",
@@ -60,14 +61,14 @@
   "localisation": false,
   "repositoryType": "tools",
   "userInput": false,
-  "fismaLevel": "Low",
+  "fismaLevel": "low",
   "group": "CMS/OA/DSAC",
   "projects": [],
   "systems": [],
   "subsetInHealthcare": [
-    "Policy",
-    "Operational"
+    "policy",
+    "operational"
   ],
-  "userType": "Government",
+  "userType": ["government"],
   "maturityModelTier": 1
 }
