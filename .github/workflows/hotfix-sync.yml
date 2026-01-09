@@ -5,6 +5,10 @@ on:
     branches: [release]
     types: [opened, closed]
 
+permissions:
+  contents: write
+  pull-requests: write
+
 jobs:
   remind-label:
     if: github.event.action == 'opened'
