@@ -41,6 +41,9 @@ jobs:
       - uses: carloscastrojumo/github-cherry-pick-action@v1.0.1
         with:
           branch: main
-          labels: cherry-pick
+          labels: synced-cherry-pick
+          body: |
+            Automated cherry-pick of hotfix from `release`.
+            Original PR: #${{ github.event.pull_request.number }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
