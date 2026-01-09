@@ -1,4 +1,6 @@
 {
     "test_field": "this is a test field",
-    "clones": 3124
+    "clones": 3124,
+    "type": "DCAT 3.0",
+    "test": "test"
 }
