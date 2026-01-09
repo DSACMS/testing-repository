@@ -1,5 +1,6 @@
 {
     "test_field": "this is a test field",
     "clones": 3124,
-    "type": "DCAT 3.0"
+    "type": "DCAT 3.0",
+    "standard": "CMS standard"
 }
