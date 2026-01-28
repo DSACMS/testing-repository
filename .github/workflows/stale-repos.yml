@@ -24,7 +24,7 @@ jobs:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           ORGANIZATION: ${{ secrets.ORGANIZATION }}
           EXEMPT_TOPICS: "keep,template"
-          INACTIVE_DAYS: 40
+          INACTIVE_DAYS: 30
           ACTIVITY_METHOD: "pushed"
           ADDITIONAL_METRICS: "release,pr"
 
