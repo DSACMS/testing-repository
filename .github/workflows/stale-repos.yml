@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run stale_repos tool
-        uses: github/stale-repos@v6
+        uses: github/stale-repos@v8.0.0
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           ORGANIZATION: ${{ secrets.ORGANIZATION }}
