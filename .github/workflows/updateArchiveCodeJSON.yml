@@ -27,7 +27,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: "main"
           SKIP_PR: "false"
-          ARCHIVE: "true"
 
       - name: Report update method
         run: |
