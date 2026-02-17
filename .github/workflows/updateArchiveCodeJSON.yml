@@ -22,7 +22,7 @@ jobs:
 
       - name: Update code.json
         id: update
-        uses: DSACMS/automated-codejson-generator@main
+        uses: DSACMS/automated-codejson-generator@DSACMS/nat/archive-pr-body
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BRANCH: "main"
