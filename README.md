@@ -1,4 +1,6 @@
 # Repolinter Test 1
+> [!WARNING]
+>This project is now archived and no longer actively maintained. It has been archived to retain its contents for reference. Feel free to explore and fork the repository, but please note that updates or support will not be provided.
 <!-- This should be 1-3 sentence short description of the project that can be used as a 'one-liner' to describe the repo. A best practice is using this same language as the official 'description' on a GitHub repo landing page. --> 
 This is a quick test project.
  
