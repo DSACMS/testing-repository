@@ -1,4 +1,6 @@
 # Repolinter Test 1
+> [!WARNING]
+>custom archival message here
 <!-- This should be 1-3 sentence short description of the project that can be used as a 'one-liner' to describe the repo. A best practice is using this same language as the official 'description' on a GitHub repo landing page. --> 
 This is a quick test project.
  
