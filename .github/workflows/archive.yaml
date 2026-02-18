@@ -19,4 +19,5 @@ jobs:
         uses: DSACMS/repo-sunsetter@DSACMS/nat/gen-action
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          ARCHIVE_NOTICE_TEXT: "custom archival message here"
+          USE_MATURITY_MODEL_TIERS: "false"
+          CHECKLIST_LINK: "https://raw.githubusercontent.com/DSACMS/repo-sunsetter/main/checklists/COMPREHENSIVE_ARCHIVAL_CHECKLIST.md"
