@@ -16,8 +16,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run repo-sunsetter
-        id: archive
         uses: DSACMS/repo-sunsetter@DSACMS/nat/gen-action
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USE_MATURITY_MODEL_TIERS: "true"
+          METADATA_FILE_TYPE: "publiccode.yml"
