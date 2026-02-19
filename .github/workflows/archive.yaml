@@ -1,4 +1,4 @@
-name: repo-sunsetter main action
+name: Archive repository
 on:
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: Run repo-sunsetter
-        uses: DSACMS/repo-sunsetter@DSACMS/nat/gen-action
+        id: archive
+        uses: DSACMS/repo-sunsetter@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USE_MATURITY_MODEL_TIERS: "true"
