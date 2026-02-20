@@ -3,7 +3,7 @@
   "version": "",
   "description": "Test repository for Repolinter Actions",
   "longDescription": "This repository functions as a playground for the OSPO to test, validate, and experiment with various actions that are made with Github Actions -currently used for Repolinter and automated-codejson-generator.",
-  "status": "Ideation",
+  "status": "Archival",
   "permissions": {
     "licenses": [
       {
@@ -11,7 +11,9 @@
         "name": "CC0-1.0"
       }
     ],
-    "usageType": ["openSource"],
+    "usageType": [
+      "openSource"
+    ],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
@@ -23,7 +25,7 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2665,
+  "laborHours": 2800,
   "reuseFrequency": {
     "forks": 0,
     "clones": 0
@@ -46,11 +48,12 @@
   "partners": [],
   "date": {
     "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2025-11-13T22:25:44Z",
-    "metadataLastUpdated": "2025-11-13T22:26:52.905Z"
+    "lastModified": "2026-02-18T23:29:14Z",
+    "metadataLastUpdated": "2026-02-18T23:31:18.954Z"
   },
   "tags": [
-    "healthcare"
+    "healthcare",
+    "Archived"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
@@ -69,6 +72,8 @@
     "policy",
     "operational"
   ],
-  "userType": ["government"],
+  "userType": [
+    "government"
+  ],
   "maturityModelTier": 1
 }
