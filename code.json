@@ -3,7 +3,7 @@
   "version": "",
   "description": "Test repository for Repolinter Actions",
   "longDescription": "This repository functions as a playground for the OSPO to test, validate, and experiment with various actions that are made with Github Actions -currently used for Repolinter and automated-codejson-generator.",
-  "status": "Ideation",
+  "status": "Archival",
   "permissions": {
     "licenses": [
       {
@@ -48,11 +48,12 @@
   "partners": [],
   "date": {
     "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2026-02-25T18:35:43Z",
-    "metadataLastUpdated": "2026-03-01T02:30:54.826Z"
+    "lastModified": "2026-03-01T02:30:58Z",
+    "metadataLastUpdated": "2026-03-02T21:56:31.153Z"
   },
   "tags": [
-    "healthcare"
+    "healthcare",
+    "archived"
   ],
   "contact": {
     "email": "opensource@cms.hhs.gov",
