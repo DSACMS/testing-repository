@@ -20,3 +20,6 @@ jobs:
         uses: DSACMS/repo-sunsetter@main
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USE_MATURITY_MODEL_TIERS: "true"
+          ARCHIVE_NOTICE_TEXT: "custom archival message here"
+          METADATA_FILE_TYPE: "none"
