@@ -1,4 +1,4 @@
-name: Archive repository
+name: Identify repositories for archival
 on:
   workflow_dispatch:
 
