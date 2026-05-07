@@ -8,7 +8,7 @@ permissions:
   issues: write
 
 jobs:
-  run-repo-sunsetter:
+  run-archival-identifier:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
