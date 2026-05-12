@@ -1,0 +1,48 @@
+name: "Monthly Empty-Repo Report"
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Runs on the 1st of every month
+  workflow_dispatch:
+    inputs:
+      visibility:
+        description: 'Which repos to scan: all, public, or private'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - public
+          - private
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  SCAN_ORG: github  # ← update with your GitHub org if different
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository 📂
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+
+      - name: Generate empty/README-only report 🕵️
+        id: report
+        uses: actions/github-script@v8.0.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            // Load the scanner module safely
+            const { EmptyReposScanner } = require('./scripts/empty-repos-scanner.js');
+
+            // Create scanner instance and run
+            const scanner = new EmptyReposScanner(github, context);
+            const org = process.env.SCAN_ORG;
+            const visibility = '${{ github.event.inputs.visibility || 'all' }}';
+            await scanner.run(org, visibility);
