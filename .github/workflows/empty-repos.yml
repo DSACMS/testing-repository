@@ -14,7 +14,7 @@ on:
           - all
           - public
           - private
-      SCAN_ORG:
+      org:
         description: GitHub org to scan
         type: string
         required: true
@@ -24,7 +24,7 @@ permissions:
   issues: write
 
 env:
-  SCAN_ORG: {{ inputs.SCAN_ORG }}  # ← update with your GitHub org if different
+  SCAN_ORG: DSACMS  # ← update with your GitHub org if different
 
 jobs:
   report:
