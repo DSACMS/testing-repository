@@ -14,13 +14,17 @@ on:
           - all
           - public
           - private
+      SCAN_ORG:
+        description: GitHub org to scan
+        type: string
+        required: true
 
 permissions:
   contents: read
   issues: write
 
 env:
-  SCAN_ORG: github  # ← update with your GitHub org if different
+  SCAN_ORG: {{ inputs.SCAN_ORG }}  # ← update with your GitHub org if different
 
 jobs:
   report:
