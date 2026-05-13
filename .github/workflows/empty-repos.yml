@@ -47,6 +47,6 @@ jobs:
 
             // Create scanner instance and run
             const scanner = new EmptyReposScanner(github, context);
-            const org = ${{ inputs.org }};
+            const org = '${{ inputs.org }}';
             const visibility = '${{ github.event.inputs.visibility || 'all' }}';
             await scanner.run(org, visibility);
