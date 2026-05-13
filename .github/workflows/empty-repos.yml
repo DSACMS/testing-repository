@@ -49,7 +49,8 @@ jobs:
             const scanner = new EmptyReposScanner(github, context);
             const org = '${{ inputs.org }}';
             const visibility = '${{ github.event.inputs.visibility || 'all' }}';
-            await scanner.run(org, visibility);
+            const result = await scanner.run(org, visibility);
+            return result
             
       - name: Your next step
         run: echo ${{ steps.report.outputs.result }}
