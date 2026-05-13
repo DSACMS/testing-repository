@@ -50,3 +50,6 @@ jobs:
             const org = '${{ inputs.org }}';
             const visibility = '${{ github.event.inputs.visibility || 'all' }}';
             await scanner.run(org, visibility);
+            
+      - name: Your next step
+        run: echo ${{ steps.report.outputs.result }}
