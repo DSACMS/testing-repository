@@ -146,8 +146,9 @@ class EmptyReposScanner {
     
     const today = new Date().toISOString().slice(0, 10);
     const report = { org, visibility, date: today, empty, readmeOnly };
-    
-    return { ...report, issueCreated: true };
+
+    // issueCreated: true 
+    return { ...report};
   }
 }
 
