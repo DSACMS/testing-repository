@@ -141,12 +141,11 @@ class EmptyReposScanner {
       return { empty, readmeOnly, issueCreated: false };
     }
 
-    await this.createReportIssue(org, visibility, empty, readmeOnly);
+    // Turning off issues for the timebeing
+    // await this.createReportIssue(org, visibility, empty, readmeOnly);
     
     const today = new Date().toISOString().slice(0, 10);
     const report = { org, visibility, date: today, empty, readmeOnly };
-    
-    console.log(`::set-output name=report-json::${JSON.stringify(report)}`);
     
     return { ...report, issueCreated: true };
   }
