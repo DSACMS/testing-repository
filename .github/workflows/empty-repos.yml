@@ -43,7 +43,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             // Load the scanner module safely
-            const { EmptyReposScanner } = require('./scripts/empty-repos-scanner.js');
+            const EmptyReposScanner = require('./scripts/empty-repos-scanner.js');
 
             // Create scanner instance and run
             const scanner = new EmptyReposScanner(github, context);
