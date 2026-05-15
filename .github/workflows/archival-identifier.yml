@@ -1,6 +1,28 @@
 name: Identify repositories for archival
 on:
   workflow_dispatch:
+    inputs:
+      start_date:
+        description: 'Start date for historical data (YYYY-MM-DD) - required, e.g., 2026-01-01'
+        required: true
+        type: string
+      end_date:
+        description: 'End date for historical data (YYYY-MM-DD) - defaults to today if not provided'
+        required: false
+        default: ''
+        type: string
+      org_name:
+        description: 'GitHub organization name'
+        required: true
+      visibility:
+        description: 'Which repos to scan: all, public, or private'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - public
+          - private
 
 permissions:
   contents: write
@@ -17,6 +39,10 @@ jobs:
           fetch-depth: 0
       - name: Run archival-identifier
         id: archive
-        uses: DSACMS/archival-identifier@DSACMS/nat/mvp-again
+        uses: DSACMS/archival-identifier@main
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          START_DATE: ${{ inputs.start_date }}
+          END_DATE: ${{ inputs.end_date }}
+          ORG_NAME: ${{ inputs.org_name }}
+          GITHUB_ORG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          VISIBILITY: ${{ inputs.visibility }}
