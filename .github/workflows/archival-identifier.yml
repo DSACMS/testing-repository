@@ -23,6 +23,9 @@ on:
           - all
           - public
           - private
+      criticality_score_threshold:
+        description: 'GitHub organization name'
+        required: true
 
 permissions:
   contents: write
@@ -46,3 +49,4 @@ jobs:
           ORG_NAME: ${{ inputs.org_name }}
           GITHUB_ORG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VISIBILITY: ${{ inputs.visibility }}
+          CRITICALITY_SCORE_THRESHOLD: ${{ inputs.criticality_score_threshold }}
