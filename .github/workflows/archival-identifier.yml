@@ -26,6 +26,7 @@ on:
       criticality_score_threshold:
         description: 'GitHub organization name'
         required: true
+        type: number
 
 permissions:
   contents: write
