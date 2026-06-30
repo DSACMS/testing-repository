@@ -24,9 +24,10 @@ on:
           - public
           - private
       criticality_score_threshold:
-        description: 'GitHub organization name'
+        description: 'Criticality score threshold'
         required: true
         type: number
+        default: 2.5
 
 permissions:
   contents: write
