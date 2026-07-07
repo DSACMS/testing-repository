@@ -52,8 +52,3 @@ jobs:
           GITHUB_ORG_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VISIBILITY: ${{ inputs.visibility }}
           CRITICALITY_SCORE_THRESHOLD: ${{ inputs.criticality_score_threshold }}
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-          ORG_NAME: ${{ inputs.org_name }}
-          START_DATE: ${{ inputs.start_date }}
-          END_DATE: ${{ inputs.end_date }}
