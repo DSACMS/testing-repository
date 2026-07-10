@@ -1,14 +1,10 @@
 name: Sync repo topics from code.json
 
 on:
-  pull_request:
-    types: [closed]
-    paths:
-      - "code.json"
+  workflow_dispatch:
 
 jobs:
   sync_topics:
-    if: github.event.pull_request.merged == true
     runs-on: ubuntu-latest
 
     steps:
