@@ -1,0 +1,22 @@
+name: Sync repo topics from code.json
+
+on:
+  pull_request:
+    types: [closed]
+    paths:
+      - "code.json"
+
+jobs:
+  sync_topics:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout merged repository
+        uses: actions/checkout@v4
+
+      - name: Sync repository topics from code.json
+        uses: DSACMS/actual-repo@branch-name
+        with: 
+          github-token: ${{ secrets.REPO_TOPICS_TOKEN }} 
+          repository: ${{ github.repository }}
