@@ -12,6 +12,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Sync repository topics from code.json
-        uses: Isaac-rtc/github-actions-playground@MAIN
+        uses: isaac-rtc/github-actions-playground@main
         with:
           token: ${{ secrets.REPO_TOPICS_TOKEN }}
