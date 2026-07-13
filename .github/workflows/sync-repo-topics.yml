@@ -14,4 +14,4 @@ jobs:
       - name: Sync repository topics from code.json
         uses: isaac-rtc/github-actions-playground@main
         with:
-          token: ${{ secrets.REPO_TOPICS_TOKEN }}
+          token: ${{ secrets.REPO_TOPIC_TOKEN }}
