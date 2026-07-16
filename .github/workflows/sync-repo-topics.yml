@@ -12,6 +12,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Sync repository topics from code.json
-        uses: DSACMS/automated-codejson-generator/@DSACMS/isaac/repo-topics-sync
+        uses: DSACMS/automated-codejson-generator/sync-topics/@DSACMS/isaac/repo-topics-sync
         with:
           token: ${{ secrets.REPO_TOPIC_TOKEN }}
