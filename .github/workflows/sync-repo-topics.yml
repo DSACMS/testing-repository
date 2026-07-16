@@ -3,6 +3,11 @@ name: Sync repo topics from code.json
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
   sync_topics:
     runs-on: ubuntu-latest
