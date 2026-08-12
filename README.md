@@ -1,10 +1,8 @@
-# Repolinter Test 1
+# {name_of_project_here} 
 <!-- This should be 1-3 sentence short description of the project that can be used as a 'one-liner' to describe the repo. A best practice is using this same language as the official 'description' on a GitHub repo landing page. --> 
-This is a quick test project.
  
  ## About the Project 
 <!-- This should be a longer-form description of the project. It can include history, background, details, problem statements, links to design documents or other supporting materials, or any other information/context that a user or contributor might be interested in. --> 
-This is a real quick test project for Repolinter PR testing the actual flow of using this action.
  
  ## Project Mission 
 <!-- Provide the core mission and objectives driving this project. --> 
