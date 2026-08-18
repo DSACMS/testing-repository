@@ -23,7 +23,7 @@
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2931,
+  "laborHours": 2987,
   "reuseFrequency": {
     "forks": 0,
     "clones": 0
@@ -43,8 +43,8 @@
   "partners": [],
   "date": {
     "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2026-08-18T16:32:31Z",
-    "metadataLastUpdated": "2026-08-18T16:33:56.692Z"
+    "lastModified": "2026-08-18T16:52:08Z",
+    "metadataLastUpdated": "2026-08-18T16:52:23.619Z"
   },
   "tags": [
     "healthcare"
