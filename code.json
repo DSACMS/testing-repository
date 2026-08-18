@@ -1,0 +1,68 @@
+{
+  "name": "testing-repository",
+  "version": "",
+  "description": "Test repository for Repolinter Actions",
+  "longDescription": "",
+  "status": "",
+  "permissions": {
+    "licenses": [
+      {
+        "name": "CC0-1.0",
+        "URL": ""
+      }
+    ],
+    "usageType": [],
+    "exemptionText": ""
+  },
+  "organization": "Centers for Medicare & Medicaid Services",
+  "repositoryURL": "https://github.com/DSACMS/testing-repository",
+  "repositoryHost": "",
+  "repositoryVisibility": "public",
+  "homepageURL": "",
+  "downloadURL": "",
+  "disclaimerURL": "",
+  "disclaimerText": "",
+  "vcs": "git",
+  "laborHours": 2931,
+  "reuseFrequency": {
+    "forks": 0,
+    "clones": 0
+  },
+  "platforms": [],
+  "categories": [],
+  "softwareType": "",
+  "languages": [
+    "JavaScript",
+    "Python"
+  ],
+  "maintenance": "",
+  "contractNumber": [],
+  "SBOM": "https://github.com/DSACMS/testing-repository/network/dependencies",
+  "relatedCode": [],
+  "reusedCode": [],
+  "partners": [],
+  "date": {
+    "created": "2024-12-10T17:23:27Z",
+    "lastModified": "2026-08-18T16:32:31Z",
+    "metadataLastUpdated": "2026-08-18T16:33:56.692Z"
+  },
+  "tags": [
+    "healthcare"
+  ],
+  "contact": {
+    "email": "",
+    "name": ""
+  },
+  "feedbackMechanism": "https://github.com/DSACMS/testing-repository/issues",
+  "AIUseCaseID": "0",
+  "localisation": false,
+  "repositoryType": "",
+  "userInput": false,
+  "fismaLevel": "",
+  "group": "",
+  "projects": [],
+  "systems": [],
+  "subsetInHealthcare": [],
+  "userType": [],
+  "maturityModelTier": 0
+}
