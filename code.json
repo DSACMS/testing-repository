@@ -3,7 +3,7 @@
   "version": "",
   "description": "Test repository for Repolinter Actions",
   "longDescription": "",
-  "status": "",
+  "status": "Archival",
   "permissions": {
     "licenses": [
       {
@@ -43,11 +43,12 @@
   "partners": [],
   "date": {
     "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2026-08-18T16:52:08Z",
-    "metadataLastUpdated": "2026-08-18T16:52:23.619Z"
+    "lastModified": "2026-08-18T16:52:34Z",
+    "metadataLastUpdated": "2026-08-18T17:22:25.610Z"
   },
   "tags": [
-    "healthcare"
+    "healthcare",
+    "archived"
   ],
   "contact": {
     "email": "",
