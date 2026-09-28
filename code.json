@@ -2,7 +2,7 @@
   "name": "testing-repository",
   "version": "",
   "description": "Test repository for Repolinter Actions",
-  "longDescription": "",
+  "longDescription": "This repository serves as a dedicated testing environment for validating the functionality and workflow of Repolinter Actions. It is designed to facilitate rigorous testing of the actual process flow when utilizing these actions within a development pipeline. The project utilizes JavaScript and Python to support the testing of code quality and linting mechanisms. This open-source repository supports community contributions and adheres to principles that promote accessible, freely usable government software.",
   "status": "",
   "permissions": {
     "licenses": [
@@ -11,26 +11,36 @@
         "URL": ""
       }
     ],
-    "usageType": [],
+    "usageType": [
+      "openSource"
+    ],
     "exemptionText": ""
   },
   "organization": "Centers for Medicare & Medicaid Services",
   "repositoryURL": "https://github.com/DSACMS/testing-repository",
-  "repositoryHost": "",
+  "repositoryHost": "github.com/DSACMS",
   "repositoryVisibility": "public",
   "homepageURL": "",
   "downloadURL": "",
   "disclaimerURL": "",
   "disclaimerText": "",
   "vcs": "git",
-  "laborHours": 2987,
+  "laborHours": 2986,
   "reuseFrequency": {
     "forks": 0,
     "clones": 0
   },
-  "platforms": [],
-  "categories": [],
-  "softwareType": "",
+  "platforms": [
+    "web"
+  ],
+  "categories": [
+    "project-management",
+    "test-management",
+    "it-development",
+    "it-security",
+    "workflow-management"
+  ],
+  "softwareType": "standalone/web",
   "languages": [
     "JavaScript",
     "Python"
@@ -43,10 +53,15 @@
   "partners": [],
   "date": {
     "created": "2024-12-10T17:23:27Z",
-    "lastModified": "2026-08-28T16:40:27Z",
-    "metadataLastUpdated": "2026-09-01T03:59:36.516Z"
+    "lastModified": "2026-09-28T19:46:02Z",
+    "metadataLastUpdated": "2026-09-28T19:47:57.934Z"
   },
   "tags": [
+    "JavaScript",
+    "Python",
+    "testing",
+    "Repolinter",
+    "PR testing",
     "healthcare"
   ],
   "contact": {
@@ -56,7 +71,7 @@
   "feedbackMechanism": "https://github.com/DSACMS/testing-repository/issues",
   "AIUseCaseID": "0",
   "localisation": false,
-  "repositoryType": "",
+  "repositoryType": "tools",
   "userInput": false,
   "fismaLevel": "",
   "group": "",
@@ -64,5 +79,5 @@
   "systems": [],
   "subsetInHealthcare": [],
   "userType": [],
-  "maturityModelTier": 0
+  "maturityModelTier": 1
 }
